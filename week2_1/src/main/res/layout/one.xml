@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.youth.banner.Banner
+        android:id="@+id/banner"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        />
+    <com.bw.ymy.week2_1.App.MyTextView
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:textSize="20sp"
+        android:textColor="#f0f"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="特大喜讯，本店清仓大甩卖，买到就是赚到，想买的顾客朋友，抓紧时间抢购。买的越多，
+        实惠越多。机会不是天天有，该出手时就出手。赶快前来抢购吧！"/>
+
+    <ListView
+        android:id="@+id/xlistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
